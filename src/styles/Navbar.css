@@ -1,0 +1,116 @@
+.navbar {
+  width: 100%;
+  height: 100px;
+  background: #132043;
+}
+
+.links {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar a {
+  width: fit-content;
+  text-align: center;
+  color: #FDF0F0;
+  text-decoration: none;
+  margin: 20px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+a.active-link {
+  text-decoration: underline;
+  text-decoration-color: #FDF0F0;
+}
+
+.toggleButton {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.toggleButton svg {
+  font-size: 50px;
+}
+
+.toggleButton button {
+  margin-right: 20px;
+  background-color: transparent;
+  border: none;
+  color: #E4F1FF;
+  cursor: pointer;
+}
+
+#open {
+  height: 100vh;
+}
+
+#open .links {
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 100px;
+}
+
+#open a {
+  width: 100%;
+  text-align: center;
+}
+
+.switch {
+  width: 70px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 50px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.switch[data-isturn="true"] {
+  justify-content: flex-end;
+} 
+
+.handle {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border-radius: 40px;
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar a {
+    width: fit-content;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .toggleButton {
+    display: flex;
+  }
+  #close a {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 620px) {
+  .toggleButton {
+    display: none;
+  }
+
+  #open {
+    height: 100px;
+  }
+
+  #open .links {
+    flex-direction: row;
+  }
+
+}

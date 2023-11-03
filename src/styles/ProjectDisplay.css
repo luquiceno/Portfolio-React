@@ -1,0 +1,128 @@
+.project {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-links {
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.back-button {
+  font-weight: 500;
+  font-size: 20px;
+  color: #132043;
+  text-decoration: none; 
+} 
+
+.back-button:hover {
+  text-decoration: underline;
+  color: #ec720f;
+}
+
+.demo, .code {
+  font-size: 20px;
+  color: #132043;
+  font-weight: 500;
+  padding-left: 35px;
+  text-decoration: none;
+}
+
+.demo:hover,
+.code:hover {
+  text-decoration: underline;
+  color: #ec720f;
+}
+
+img {
+  object-fit: contain;
+}
+
+.project-image {
+  width: 450px;
+  height: 250px;
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 5px 10px 8px #888888;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.project p {
+  width: 70%;
+  font-size: 20px;
+  color: #040404;
+  padding-top: 20px;
+  letter-spacing: 1.5px;
+  padding-bottom: 20px;
+}
+
+.project-skills {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  
+}
+
+.every-skill {
+  width: fit-content;
+  height:fit-content;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #f8efef; 
+  padding: 10px;
+  color: #132043;
+  letter-spacing: 1px;
+  transform: scale(1);
+  transition: transform 300ms;
+  border: 1px solid #cdced0;
+  
+}
+
+.every-skill:hover {
+  background-color: #FDF0F0;
+  color: #ec720f;
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 720px) {
+  .project-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .demo, .code, .back-button {
+    font-size: 18px;
+  } 
+
+  .back-button {
+    margin-bottom: 25px;
+  }
+
+  .project-image {
+    width: 420px;
+    height: 220px;
+  }
+}
+
+
+
+
