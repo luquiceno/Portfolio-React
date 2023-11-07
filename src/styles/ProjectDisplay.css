@@ -45,11 +45,11 @@
 
 img {
   object-fit: contain;
+  
 }
 
 .project-image {
   width: 450px;
-  height: 250px;
   background-size: cover;
   border-radius: 20px;
   box-shadow: 5px 10px 8px #888888;
@@ -118,9 +118,9 @@ img {
   }
 
   .project-image {
-    width: 420px;
-    height: 220px;
+    width: 80%;
   }
+
 }
 
 

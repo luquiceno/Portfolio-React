@@ -32,7 +32,7 @@ function Home() {
         <h2>About Me</h2>  
         <p>As a frontend developer in training, I like challenges and learn from the experts. 
            For that reason I would like to be part of your team, learn and contribute on the projects
-           the team or the company is working on. <br/>
+           the team is working on. <br/>
            I have almost five years of <Link to="/experience" className="project-experience"> work experience </Link> and although it was not as a Frontend Developer, I know
            that these skills are transferable to this new role that I want to fill.<br/>
            For some months I have been self-taught and I have been putting my knowledge into practice through the 

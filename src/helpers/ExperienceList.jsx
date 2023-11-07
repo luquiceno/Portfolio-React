@@ -4,8 +4,26 @@ export const ExperienceList = [
     place: "Online",
     location: "Zurich, CH",
     description: 
-      "I have taken some online courses in which I have acquired skills about HTML, CSS, JavaScript, React, APIs, Responsive Design, UI Design, TypeScript, Figma, etc. I have been able to apply my knowledge by developing guided projects or projects from scratch and making some contributions to Open Source projects of my interest.",
+      "I have taken some online courses in which I have acquired skills about HTML, CSS, JavaScript, React, APIs, Responsive Design, UI Design, TypeScript, Figma, etc. I have been able to apply my knowledge by developing guided projects or projects from scratch.",
     date: "Apr 2022 - Present",
+  },
+
+  {
+    title: "Open Source Contribution",
+    place: "Mozilla PerfCompare",
+    location: "Remote",
+    description: 
+      "During the period of contribution to the PerfCompare project at Mozilla, the goal was update the header component to match with the new UX design. For this, it was necessary to add new text, change some size text, add a new button, update the dark mode design using a switch toggle and update the background for the header component with a given background image. These changes required mainly knowledge of TypeScript, JavaScript and Material UI, as well as HTML and CSS.",
+    date: "Mar.25.2023 - Apr.22.2023",
+  },
+
+  {
+    title: "Open Source Contribution",
+    place: "Jupyterhub",
+    location: "Remote",
+    description: 
+      "During the period of contribution to the Jupyterhub project, my tasks were to familiarize and learn about web accessibility. Then using the WAVE evaluation tool, I reviewed one of the project's web pages and wrote a report evidencing the problems encountered and shared a possible solution involving HTML or CSS code. I also made another contribution that involved creating a plugin, installing it and running some tests locally and making sure all the tests passed.",
+    date: "Oct.08.2022 - Nov.04.2022",
   },
 
   {
@@ -18,30 +36,12 @@ export const ExperienceList = [
   },
 
   {
-    title: "Project Employee - Audit Project",
+    title: "Contractor",
     place: "Technological University of Pereira",
     location: "Pereira, COL",
     description: 
-      "As a Project Employee, I was part of the Audit Project where my tasks were to conduct follow-up meetings for the projects to be audited, manage and communicate to the audit team the problems presented in the projects. Approximately 180 projects in different areas, such as technologie in the health area, technologie in the agroindustrial sector, technologie in the tourism sector and projects of companies seeking a CMMI (stands for Capability Maturity Model Integration) certification.",
-    date: "Aug 2017 - Nov 2017",
-  },
-
-  {
-    title: "Project Employee - Project for Government Institutions",
-    place: "Technological University of Pereira",
-    location: "Pereira, COL",
-    description: 
-      "As a Project Employee, I was part of a project where the goal was to provide a training to public sector employees, on the topic of information security with the International Standard ISO27001 2013. My tasks on this project were to research about the standard and with the help of an expert lawyer, the laws related to this topic in Colombia. Then create the content of a course and set up on the Moodle e-learning platform, to then be used by education professionals, to provide training to employees of public companies. In addition we completed the ISO27001 2013 Internal Auditor certification.",
-    date: "Jan 2016 - Oct 2016",
-  },
-
-  {
-    title: "Project Employee - Software for Credit Cooperatives",
-    place: "Technological University of Pereira",
-    location: "Pereira, COL",
-    description: 
-      "As a Project Employee, I was part of a project where the goal was to develop an application that would serve as a support tool to provide advice to Credit Cooperatives in the region, on information security and the use of best practices. I entered this project with the responsability of assigning and scheduling group tasks (6 people). Collaborated in administrative tasks or tasks necessary for the completion of the project. In this project we used the Scrum methodology.",
-    date: "Sep 2015 - Mar 2016",
+      "Within the University I was part of a group where auditing, training and development projects of software products for third parties were carried out. In each of the projects I played different roles, which involved communication, coordination, research and documentation skills. The link to the detail of the projects can be found in my resume in the description of this same work experience.",
+    date: "Sep 2015 - Nov 2017",
   },
 
   {
@@ -49,7 +49,7 @@ export const ExperienceList = [
     place: "Dat@center S.A",
     location: "Pereira, COL",
     description: 
-      "As a functional analyst, my tasks were to carry out the requirements analysis of the improvements, changes or new products required by the stakeholders. Fot the analysis of the requirements and their prototypes I used the Enterprise Architect tool. Once this process was finished, meetings were held with the stakeholders for the presentation of the prototypes.",
+      "As a functional analyst, my tasks were to carry out the requirements analysis of the improvements, changes or new products required by the stakeholders. Fot the analysis of the requirements and their prototypes I used the Enterprise Architect tool. Once this process was finished, meetings were held with the stakeholders for the presentation of the prototypes. I also made some improvements to a module for trace the cash flow between some users in the company's platform using C and Java programming language.",
     date: "Sep 2013 - Jul 2015",
   },
 

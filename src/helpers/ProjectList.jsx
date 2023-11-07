@@ -33,8 +33,8 @@ export const ProjectList = [
     description: 
     "My portfolio was created for two purposes. The first was to show through practice what I have learned so far and secondly, to increase my knowledge of React among other skills, including some animations using framer-motion.",
     image: Proj4,
-    urlDemo:"https://vansrentwebsite.netlify.app",
-    urlCodeView:"https://github.com/luquiceno/vansWebsite",
+    urlDemo:"https://luportfolio.netlify.app",
+    urlCodeView:"https://github.com/luquiceno/Portfolio-React",
     skills: ["React", "HTML", "CSS", "Responsive Design", "JavaScript", "Framer-motion", "GitHub", "Material UI" ],
   },
 
@@ -49,12 +49,12 @@ export const ProjectList = [
   },
 
   {
-    name: "Personal Dashboard",
+    name: "Dashboard Extension",
     description: 
     "Personal Dashboard was a guided project to put into practice how to work with Asynchronous JavaScript and APIs. The application display the crypto currency information from the Dogecoin API, also reach out the current weather information from the Open Weather Map API and from the Unplash API rech out the image that you can see in the background with its corresponding author.",
     image: Proj5,
-    urlDemo:"https://vansrentwebsite.netlify.app",
-    urlCodeView:"https://github.com/luquiceno/vansWebsite",
+    urlDemo:"https://dashboardextension.netlify.app",
+    urlCodeView:"https://github.com/luquiceno/Dashboard-Extension",
     skills: ["Asynchronous JavaScript", "HTML", "CSS", "REST APIs", "GitHub"],
   },
 
@@ -63,8 +63,8 @@ export const ProjectList = [
     description: 
     "Deck War was a guided project to put into practice how to work with Asynchronous JavaScript and APIs. The application is a Deck game between you and the computer. All the information display in the web application coming from the Deck API.",
     image: Proj10,
-    urlDemo:"https://vansrentwebsite.netlify.app",
-    urlCodeView:"https://github.com/luquiceno/vansWebsite",
+    urlDemo:"https://deckwar.netlify.app",
+    urlCodeView:"https://github.com/luquiceno/Deck-War",
     skills: ["Asynchronous JavaScript", "HTML", "CSS", "REST APIs", "GitHub"],
   },
 
