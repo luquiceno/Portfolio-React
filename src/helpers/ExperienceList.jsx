@@ -45,11 +45,11 @@ export const ExperienceList = [
   },
 
   {
-    title: "Junior Functional and Business Analyst",
+    title: "Junior Functional Business Analyst and Developer",
     place: "Dat@center S.A",
     location: "Pereira, COL",
     description: 
-      "As a functional analyst, my tasks were to carry out the requirements analysis of the improvements, changes or new products required by the stakeholders. Fot the analysis of the requirements and their prototypes I used the Enterprise Architect tool. Once this process was finished, meetings were held with the stakeholders for the presentation of the prototypes. I also made some improvements to a module for trace the cash flow between some users in the company's platform using C and Java programming language.",
+      "As a functional analyst, my tasks were to carry out the requirements analysis of the improvements, changes or new products required by the stakeholders. For the analysis of the requirements and their prototypes I used the Enterprise Architect tool. Once this process was finished, meetings were held with the stakeholders for the presentation of the prototypes. I also made some improvements to a module for trace the cash flow between some users in the company's platform using C and Java programming language.",
     date: "Sep 2013 - Jul 2015",
   },
 

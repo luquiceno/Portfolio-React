@@ -39,19 +39,9 @@ export const ProjectList = [
   },
 
   {
-    name: "Rent Bike Website",
-    description: 
-    "Rent Bike is a guided project with the objective of level up my React skills. As a practice a SPA (Single Page Application) is created, where you can rent a bike or bike implements that you need for your rides or tours, showing in detail information about each of the available bikes or implements. It also allows to manage a personal account to carry out the rental process.",
-    image: Proj9,
-    urlDemo:"https://vansrentwebsite.netlify.app",
-    urlCodeView:"https://github.com/luquiceno/vansWebsite",
-    skills: ["React", "HTML", "CSS", "JavaScript", "Firebase", "GitHub", "Figma" ],
-  },
-
-  {
     name: "Dashboard Extension",
     description: 
-    "Personal Dashboard was a guided project to put into practice how to work with Asynchronous JavaScript and APIs. The application display the crypto currency information from the Dogecoin API, also reach out the current weather information from the Open Weather Map API and from the Unplash API rech out the image that you can see in the background with its corresponding author.",
+    "Personal Dashboard was a guided project to put into practice how to work with Asynchronous JavaScript and APIs. The application display the crypto currency information from the Dogecoin API, also reach out the current weather information from the Open Weather Map API and from the Unsplash API reach out the image that you can see in the background with its corresponding author.",
     image: Proj5,
     urlDemo:"https://dashboardextension.netlify.app",
     urlCodeView:"https://github.com/luquiceno/Dashboard-Extension",
@@ -76,6 +66,16 @@ export const ProjectList = [
     urlDemo:"https://github.com/jupyterhub/outreachy/issues/38#issuecomment-1274454640",
     urlCodeView:"https://github.com/luquiceno/pytest-pluginlu",
     skills: ["Web Accessibility", "HTML", "Python", "Pytest", "Git", "GitHub"],
+  },
+
+  {
+    name: "Rent Bike Website",
+    description: 
+    "Rent Bike is a guided project with the objective of level up my React skills, including learning about search/query parameters and authentication. As a practice a SPA (Single Page Application) is created, where you can rent a bike or bike implements that you need for your rides or tours, showing in detail information about each of the available bikes or implements. It also allows to manage a personal account to carry out the rental process.",
+    image: Proj9,
+    urlDemo:"https://vansrentwebsite.netlify.app",
+    urlCodeView:"https://github.com/luquiceno/vansWebsite",
+    skills: ["React", "HTML", "CSS", "JavaScript", "Firebase", "GitHub", "Figma" ],
   },
 
   {
