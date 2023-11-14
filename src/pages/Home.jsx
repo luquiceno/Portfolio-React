@@ -30,15 +30,14 @@ function Home() {
 
       <div className="about-text">
         <h2>About Me</h2>  
-        <p>As a frontend developer in training, I like challenges and learn from the experts. 
-           For that reason I would like to be part of your team, learn and contribute on the projects
-           the team is working on. <br/>
-           I have almost five years of <Link to="/experience" className="project-experience"> work experience </Link> and although it was not as a Frontend Developer, I know
-           that these skills are transferable to this new role that I want to fill.<br/>
+        <p>I like challenges and learning from experts. For that reason I am enthusiastic about joining your team as a Frontend Developer, where I can learn and contribute 
+           meaningfully to ongoing projects. <br/>
+           With nearly five years of <Link to="/experience" className="project-experience"> work experience </Link>, in this new stage of my career I am eager to apply my skills
+           to projects that prioritize user interfaces UI and user experience UX design, creating applications that are both visually appealing and intuitive to use.<br/>
            For some months I have been self-taught and I have been putting my knowledge into practice through the 
            development of different <Link to="/projects" className="project-link"> projects</Link> and making also some contributions to Open Source projects of my interest. 
            In both cases I have been able to gain experience in the following skills, as well as in the use of Material UI and TypeScript.
-        </p>  
+        </p> 
       </div>
       
       <div className="home-skills">

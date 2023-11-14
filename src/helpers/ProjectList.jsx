@@ -33,7 +33,7 @@ export const ProjectList = [
     description: 
     "My portfolio was created for two purposes. The first was to show through practice what I have learned so far and secondly, to increase my knowledge of React among other skills, including some animations using framer-motion.",
     image: Proj4,
-    urlDemo:"https://luportfolio.netlify.app",
+    urlDemo:"https://my-portfolio-197f3.web.app/",
     urlCodeView:"https://github.com/luquiceno/Portfolio-React",
     skills: ["React", "HTML", "CSS", "Responsive Design", "JavaScript", "Framer-motion", "GitHub", "Material UI" ],
   },
