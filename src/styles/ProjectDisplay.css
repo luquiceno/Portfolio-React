@@ -45,7 +45,6 @@
 
 img {
   object-fit: contain;
-  
 }
 
 .project-image {
@@ -75,7 +74,6 @@ img {
   justify-content: center;
   margin-top: 10px;
   margin-bottom: 25px;
-  
 }
 
 .every-skill {
@@ -92,7 +90,6 @@ img {
   transform: scale(1);
   transition: transform 300ms;
   border: 1px solid #cdced0;
-  
 }
 
 .every-skill:hover {
