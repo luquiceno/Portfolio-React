@@ -19,7 +19,7 @@
 
 .back-button {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #132043;
   text-decoration: none; 
 } 
@@ -30,7 +30,7 @@
 }
 
 .demo, .code {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #132043;
   font-weight: 500;
   padding-left: 35px;
@@ -58,7 +58,7 @@ img {
 
 .project p {
   width: 70%;
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #040404;
   padding-top: 20px;
   letter-spacing: 1.5px;
@@ -79,7 +79,7 @@ img {
 .every-skill {
   width: fit-content;
   height:fit-content;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   text-align: center;
   border-radius: 20px;
@@ -107,7 +107,7 @@ img {
   }
 
   .demo, .code, .back-button {
-    font-size: 18px;
+    font-size: 1.125rem;
   } 
 
   .back-button {
@@ -119,7 +119,6 @@ img {
   }
 
 }
-
 
 
 

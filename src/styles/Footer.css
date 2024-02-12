@@ -12,12 +12,12 @@
   color: #FDF0F0;
   margin-left: 10px;
   margin-right: 10px;
-  font-size: 25px;
+  font-size: 1.5625rem;
   cursor: pointer;
 }
 
 .footer p {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: #FDF0F0;
 } 
 
@@ -28,11 +28,11 @@
 
 @media only screen and (max-width: 620px) {
   .footer svg {
-    font-size: 35px;
+    font-size: 2.1875rem;
   }
 
   .socialMedia svg {
-    font-size: 25px;
+    font-size: 1.5625rem;
   }
 
 }

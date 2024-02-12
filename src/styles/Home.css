@@ -19,9 +19,9 @@
   padding-top: 10px;
 }
 
-.intro h2 {
+.intro h1 {
   font-family: 'Roboto', sans-serif;
-  font-size: 70px;
+  font-size: 4.375rem;
   color: #1F4172;
   height: 50px;
   text-align: left;
@@ -30,7 +30,7 @@
 }
 
 .intro-role {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 600;
   letter-spacing: 2px;
   text-align: left;
@@ -61,8 +61,8 @@
   padding-top: 40px;
 } 
 
-.about-text h2 {
-  font-size: 30px;
+.title-about {
+  font-size: 1.875rem;
   color: #1F4172;
   letter-spacing: 1.5px;
   margin-top: 0;
@@ -70,7 +70,7 @@
 }
 
 .about-text p {
-  font-size: 20px;
+  font-size: 1.25rem;
   padding-bottom: 20px;
   letter-spacing: 1.5px;
 }
@@ -116,10 +116,10 @@
   text-align: center;
 }
 
-.title {
+.title-skills {
   width: 80%;
   color: #1F4172;
-  font-size: 30px;
+  font-size: 1.875rem;
   letter-spacing: 1.5px;
   text-align: left;
   padding-bottom: 20px;
@@ -146,7 +146,7 @@
 
 .tech-name {
   color: #FDF0F0;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 500;
   letter-spacing: 1px;
 }
@@ -160,12 +160,12 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .intro h2 {
-    font-size: 60px;
+  .intro h1 {
+    font-size: 3.75rem;
   }
 
   .intro-role {
-    font-size: 35px;
+    font-size: 2.1875rem;
   }
 
   .box-image2 {
@@ -184,20 +184,20 @@
     text-align: center;
   }
 
-  .intro h2 {
-    font-size: 35px;
+  .intro h1 {
+    font-size: 2.1875rem;
   }
 
   .intro-role {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
 
   .intro p {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
 
   .technologies {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 
   .box-image1 {
@@ -213,8 +213,13 @@
     display: block
   }
 
-  .title {
+  .title-skills {
     margin-top: 5px;
+    font-size: 1.625rem;
+  }
+
+  .title-about {
+    font-size: 1.625rem;
   }
   
 }
@@ -224,7 +229,7 @@
     margin-right: 10px;
   }
 
-  .about-text h2 {
+  .title-about {
     margin-top: 20px;
   }
 }

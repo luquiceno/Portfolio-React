@@ -18,7 +18,7 @@
   color: #FDF0F0;
   text-decoration: none;
   margin: 20px;
-  font-size: 20px;
+  font-size: 1.25rem;
   letter-spacing: 1px;
 }
 
@@ -36,7 +36,7 @@ a.active-link {
 }
 
 .toggleButton svg {
-  font-size: 50px;
+  font-size: 3.125rem;
 }
 
 .toggleButton button {

@@ -12,9 +12,9 @@ function Home() {
   return (
     <div className="home">
       <div className="intro">
-        <h2 className="name">Hi, I&apos;m Lucia <br/>
+        <h1 className="name">Hi, I&apos;m Lucia <br/>
           <span className="intro-role">Front-End Developer</span>
-        </h2> 
+        </h1> 
 
         <motion.div className="box-image1" ref={parentDrag}>    
           <motion.div 
@@ -29,7 +29,7 @@ function Home() {
       </div>
 
       <div className="about-text">
-        <h2>About Me</h2>  
+        <h2 className="title-about">About Me</h2>  
         <p>I like challenges and learning from experts. For that reason I am enthusiastic about joining your team as a Frontend Developer, where I can learn and contribute 
            meaningfully to ongoing projects. <br/>
            With nearly five years of <Link to="/experience" className="project-experience"> work experience </Link>, in this new stage of my career I am eager to apply my skills
@@ -41,7 +41,7 @@ function Home() {
       </div>
       
       <div className="home-skills">
-        <h2 className="title">My Skills</h2>
+        <h2 className="title-skills">My Skills</h2>
         <div className="technologies">
           {Technologies.map((technologie, id) => (
             <motion.div 

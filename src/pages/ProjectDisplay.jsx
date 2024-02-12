@@ -31,7 +31,7 @@ function ProjectDisplay() {
         </div>
       </div>
 
-      <img src={project.image} className="project-image"/>
+      <img src={project.image} className="project-image" alt="Image of the project developed."/>
       <p>{project.description}</p>
       <div className="project-skills">
         {project.skills.map((skill, index) => {
